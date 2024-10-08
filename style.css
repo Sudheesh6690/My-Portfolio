@@ -1,0 +1,76 @@
+
+
+body {
+  padding-top: 56px; /* Adjust based on the navbar height */
+}
+.main-home-content{
+
+    width:100%;
+    background-color: rgb(241, 241, 241);
+
+}
+
+.navbar-brand{
+  font-weight: 700;
+}
+
+.custom-file-upload {
+
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:rgb(0, 151, 151);
+    margin-top: 35px;
+  
+}
+
+.img-fluid{
+  width: 50%;
+  height: 200px;
+}
+
+.developer{
+  color: rgba(8, 8, 104, 0.712);
+  font-weight: 700;
+}
+
+
+
+.hdl{
+  line-height: 50px;
+  font-size: 1.7rem;
+}
+
+input[type="file"] {
+
+    display: none; /* Hide the default file input */
+
+}
+
+.rounded{
+  background-color: aquamarine;
+
+}
+
+.skill-img{
+  width: 80px;
+  padding-top: 10px;
+}
+
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(48, 93, 104);
+  padding: 20px;
+  color: azure;
+}
+
+/* Smartphones (portrait and landscape) */
+@media screen and (max-width: 768px) {
+  .home-content{
+    flex-direction: column-reverse;
+  }
+
+}
